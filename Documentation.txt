@@ -1,0 +1,27 @@
+HTML Elements Explained:
+◆ <header>, <nav>, <main>, <section>, <footer>: Semantic HTML5 elements for clear structure.
+◆ <h1>-<h6>: Headings for content hierarchy.
+◆ <ul>, <ol>, <li>: Lists for skills, education and internal and external links.
+◆ <img>: Displays an image with alt text for accessibility.
+◆ <table>: Shows work experience/projects in a tabular format.
+◆ <form>, <input>, <textarea>, <select>: Form elements for user input.
+
+Input Types Chosen:
+◆ text: For name.
+◆ email: For email input.
+◆ tel: For phone number with correct validation of 10 digits only.
+◆ textarea: For longer messages.
+◆ checkbox: For multiple contact methods.
+◆ radio: For single choice inquiry type.
+◆ select: For dropdown topic selection.
+◆ date: For selecting a preferred date.
+◆ range: For urgency slider.
+
+Navigation Structure:
+◆ Each page has a navigation menu (<nav>) with links to all other pages.
+◆ Internal links (e.g., Home, About, Contact) use relative URLs.
+◆ External links (e.g., GitHub) open in a new tab.
+
+Favicon:
+◆ Added 3 different favicons for 3 different pages: "icons8-portfolio-64.png", "icons8-about-64.png", "icons8-contacts-64.png"
+    in the root directory and linked in the <head> of each HTML file.

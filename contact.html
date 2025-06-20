@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" type="image/png" href="icons8-contacts-64.png">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    <main>
+        <form action="portfolio.html" method="get">
+            <section>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </section>
+            <section>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </section>
+            <section>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+            </section>
+            <section>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </section>
+            <section>
+                <p>Preferred Contact Method:</p>
+                <label><input type="checkbox" name="contact_method" value="email"> Email</label>
+                <label><input type="checkbox" name="contact_method" value="phone"> Phone</label>
+                <label><input type="checkbox" name="contact_method" value="text"> Text</label>
+            </section>
+            <section>
+                <p>Inquiry Type:</p>
+                <label><input type="radio" name="inquiry_type" value="general" required> General</label>
+                <label><input type="radio" name="inquiry_type" value="business"> Business</label>
+                <label><input type="radio" name="inquiry_type" value="support"> Support</label>
+            </section>
+            <section>
+                <label for="topic">Topic:</label>
+                <select id="topic" name="topic" required>
+                    <option value="">Select a topic</option>
+                    <option value="web">Web Development</option>
+                    <option value="design">Design</option>
+                    <option value="other">Other</option>
+                </select>
+            </section>
+            <section>
+                <label for="Date">Preferred Contact Date:</label>
+                <input type="date" id="date" name="date" required>
+            </section>
+            <section>
+                <label for="Urgency">Urgency Level:</label>
+                <input type="range" id="urgency" name="urgency" min="1" max="5">
+            </section>
+            <section>
+                <button type="submit">Submit</button>
+            </section>
+        </form>
+        <article>
+            <h3><a href="portfolio.html">Back to Homepage</a></h3>
+        </article>
+        </main>
+        <nav>
+            <li>To know more about me, click here <a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </nav>
+    <footer>
+        <p>© 2025 Adhil Biju</p>
+    </footer>
+</body>
+</html>
